@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate EdStrategy Group, LLC | Higher Education Consulting</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --navy: #1a365d;
+            --navy-light: #2c5282;
+            --gold: #d4a84b;
+            --gold-light: #ecc94b;
+            --white: #ffffff;
+            --gray-light: #f7fafc;
+            --gray: #718096;
+            --gray-dark: #2d3748;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            color: var(--gray-dark);
+            line-height: 1.7;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+        }
+
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: var(--navy);
+            padding: 1rem 5%;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        .logo span {
+            color: var(--gold);
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--gold);
+        }
+
+        .mobile-menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .mobile-menu span {
+            width: 25px;
+            height: 3px;
+            background: var(--white);
+            margin: 3px 0;
+            transition: 0.3s;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 120px 5% 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="1" fill="rgba(255,255,255,0.03)"/></svg>');
+            background-size: 50px 50px;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            color: var(--white);
+            margin-bottom: 1rem;
+            line-height: 1.2;
+        }
+
+        .hero h1 span {
+            color: var(--gold);
+        }
+
+        .hero .tagline {
+            font-size: 1.5rem;
+            color: var(--gold-light);
+            margin-bottom: 1.5rem;
+            font-weight: 300;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: rgba(255,255,255,0.85);
+            margin-bottom: 2rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: var(--gold);
+            color: var(--navy);
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 50px;
+            transition: all 0.3s;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .btn:hover {
+            background: var(--gold-light);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(212, 168, 75, 0.3);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--gold);
+            color: var(--gold);
+            margin-left: 1rem;
+        }
+
+        .btn-outline:hover {
+            background: var(--gold);
+            color: var(--navy);
+        }
+
+        /* Section Styling */
+        section {
+            padding: 100px 5%;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            color: var(--navy);
+            margin-bottom: 1rem;
+        }
+
+        .section-header .underline {
+            width: 80px;
+            height: 4px;
+            background: var(--gold);
+            margin: 0 auto 1.5rem;
+        }
+
+        .section-header p {
+            color: var(--gray);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* About Section */
+        .about {
+            background: var(--gray-light);
+        }
+
+        .about-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .about-text h3 {
+            font-size: 1.8rem;
+            color: var(--navy);
+            margin-bottom: 1.5rem;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+            color: var(--gray-dark);
+        }
+
+        .about-stats {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        .stat-box {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+            transition: transform 0.3s;
+        }
+
+        .stat-box:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-box .number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--gold);
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .stat-box .label {
+            color: var(--navy);
+            font-weight: 600;
+            margin-top: 0.5rem;
+        }
+
+        /* Services Section */
+        .services {
+            background: var(--white);
+        }
+
+        .services-grid {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .service-card {
+            background: var(--gray-light);
+            padding: 40px 30px;
+            border-radius: 10px;
+            text-align: center;
+            transition: all 0.3s;
+            border-bottom: 4px solid transparent;
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            border-bottom-color: var(--gold);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+
+        .service-icon {
+            width: 80px;
+            height: 80px;
+            background: var(--navy);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1.5rem;
+        }
+
+        .service-icon svg {
+            width: 40px;
+            height: 40px;
+            fill: var(--gold);
+        }
+
+        .service-card h3 {
+            color: var(--navy);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .service-card p {
+            color: var(--gray);
+            font-size: 0.95rem;
+        }
+
+        /* Team Section */
+        .team {
+            background: var(--navy);
+            color: var(--white);
+        }
+
+        .team .section-header h2 {
+            color: var(--white);
+        }
+
+        .team .section-header p {
+            color: rgba(255,255,255,0.7);
+        }
+
+        .team-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+
+        .team-member {
+            background: var(--white);
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+            transition: transform 0.3s;
+        }
+
+        .team-member:hover {
+            transform: translateY(-10px);
+        }
+
+        .member-photo {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            object-position: top;
+        }
+
+        .member-info {
+            padding: 30px;
+            color: var(--gray-dark);
+        }
+
+        .member-info h3 {
+            color: var(--navy);
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .member-info .title {
+            color: var(--gold);
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        .member-info .bio {
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: var(--gray);
+        }
+
+        .member-credentials {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid #eee;
+        }
+
+        .member-credentials span {
+            display: inline-block;
+            background: var(--gray-light);
+            color: var(--navy);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            margin: 3px;
+            font-weight: 500;
+        }
+
+        /* Contact Section */
+        .contact {
+            background: var(--gray-light);
+        }
+
+        .contact-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .contact-content p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            color: var(--gray-dark);
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-top: 3rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .contact-item svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--gold);
+        }
+
+        .contact-item span {
+            color: var(--navy);
+            font-weight: 500;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--navy);
+            color: var(--white);
+            padding: 40px 5%;
+            text-align: center;
+        }
+
+        footer p {
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+
+        footer .logo {
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        /* Responsive */
+        @media (max-width: 968px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero .tagline {
+                font-size: 1.2rem;
+            }
+
+            .about-content {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: var(--navy);
+                flex-direction: column;
+                padding: 20px;
+                gap: 15px;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+
+            .mobile-menu {
+                display: flex;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+                max-width: 450px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            section {
+                padding: 60px 5%;
+            }
+
+            .section-header h2 {
+                font-size: 2rem;
+            }
+
+            .btn {
+                display: block;
+                margin: 10px auto;
+                text-align: center;
+            }
+
+            .btn-outline {
+                margin-left: 0;
+            }
+
+            .about-stats {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-content {
+            animation: fadeInUp 1s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="logo">Elevate <span>EdStrategy</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="mobile-menu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Elevate <span>EdStrategy</span> Group, LLC</h1>
+            <p class="tagline">Transforming Higher Education Through Data-Driven Excellence</p>
+            <p>We are a team of seasoned higher education professionals dedicated to helping institutions achieve their strategic goals through innovative research, analytics, and student success initiatives.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+            <a href="#team" class="btn btn-outline">Meet Our Team</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-header">
+            <h2>About Us</h2>
+            <div class="underline"></div>
+            <p>Dedicated professionals committed to advancing higher education</p>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Empowering Institutions to Reach New Heights</h3>
+                <p>Elevate EdStrategy Group, LLC brings together accomplished higher education leaders with deep expertise in institutional research, student success, data analytics, and strategic planning.</p>
+                <p>Our team has served at prestigious institutions across the nation, from HBCUs to major research universities. We understand the unique challenges facing today's colleges and universities, and we deliver tailored solutions that drive measurable results.</p>
+                <p>With advanced degrees from top institutions and decades of combined experience, we partner with educational organizations to transform data into actionable insights and build frameworks for sustainable success.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-box">
+                    <div class="number">50+</div>
+                    <div class="label">Years Combined Experience</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">4</div>
+                    <div class="label">Expert Consultants</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">2</div>
+                    <div class="label">Doctoral Degrees</div>
+                </div>
+                <div class="stat-box">
+                    <div class="number">100%</div>
+                    <div class="label">Client Focused</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-header">
+            <h2>Our Services</h2>
+            <div class="underline"></div>
+            <p>Comprehensive solutions tailored to your institution's needs</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"/></svg>
+                </div>
+                <h3>Institutional Research</h3>
+                <p>Comprehensive data collection, analysis, and reporting to support evidence-based decision-making and institutional effectiveness.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24"><path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z"/></svg>
+                </div>
+                <h3>Data Analytics & Assessment</h3>
+                <p>Advanced analytics solutions that transform raw data into actionable insights for strategic planning and continuous improvement.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/></svg>
+                </div>
+                <h3>Student Success & Retention</h3>
+                <p>Evidence-based strategies and programs designed to improve student outcomes, persistence, and graduation rates.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                </div>
+                <h3>Strategic Planning</h3>
+                <p>Collaborative planning processes that align institutional goals with actionable strategies and measurable outcomes.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                </div>
+                <h3>Accreditation Support</h3>
+                <p>Expert guidance through regional and specialized accreditation processes, including self-study development and compliance reviews.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+                </div>
+                <h3>Academic Advising Systems</h3>
+                <p>Design and implementation of comprehensive academic advising frameworks that enhance student engagement and success.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="section-header">
+            <h2>Meet Our Team</h2>
+            <div class="underline"></div>
+            <p>Accomplished professionals with proven expertise in higher education</p>
+        </div>
+        <div class="team-grid">
+            <!-- Dr. Runell J. King -->
+            <div class="team-member">
+                <img src="images/runell-king.jpg" alt="Dr. Runell J. King" class="member-photo">
+                <div class="member-info">
+                    <h3>Dr. Runell J. King</h3>
+                    <span class="title">Founder & Principal Consultant</span>
+                    <p class="bio">Dr. King is a distinguished higher education executive and institutional effectiveness leader whose expertise encompasses data management, applied statistics, strategic leadership, and institutional research. He currently serves as Vice President of Institutional Research and Effectiveness at Wiley University, where he provides strategic oversight of data analytics, assessment, and accreditation initiatives.</p>
+                    <div class="member-credentials">
+                        <span>Ph.D. Educational Leadership</span>
+                        <span>Applied Statistics</span>
+                        <span>Louisiana State University</span>
+                        <span>Dillard University</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dr. Jovan T. Thomas -->
+            <div class="team-member">
+                <img src="images/jovan-thomas.jpg" alt="Dr. Jovan T. Thomas" class="member-photo">
+                <div class="member-info">
+                    <h3>Dr. Jovan T. Thomas</h3>
+                    <span class="title">Senior Consultant, Student Success</span>
+                    <p class="bio">Dr. Thomas is a student success and academic affairs professional whose expertise encompasses academic advising, strategic retention, and institutional planning. He currently serves as Executive Director of Academic Advising at the University of Houston-Clear Lake, where he provides strategic leadership for advising programs and student support initiatives.</p>
+                    <div class="member-credentials">
+                        <span>Ph.D. Educational Leadership</span>
+                        <span>Master of Social Work</span>
+                        <span>Louisiana State University</span>
+                        <span>Dillard University</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ms. Shaina F. Singleton -->
+            <div class="team-member">
+                <img src="images/shaina-singleton.png" alt="Ms. Shaina F. Singleton" class="member-photo">
+                <div class="member-info">
+                    <h3>Ms. Shaina F. Singleton</h3>
+                    <span class="title">Senior Consultant, Strategic Planning</span>
+                    <p class="bio">Ms. Singleton is a higher education and nonprofit professional specializing in strategic planning, data analysis, assessment, and student retention. She currently serves as Program Manager with the Thurgood Marshall College Fund, where she supports initiatives that strengthen Historically Black Colleges and Universities and expand opportunities for students.</p>
+                    <div class="member-credentials">
+                        <span>Ph.D. Candidate, Leadership Studies</span>
+                        <span>MBA - LSU Shreveport</span>
+                        <span>MPA - Southern University</span>
+                        <span>NC A&T State University</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mrs. LeShay McNeal -->
+            <div class="team-member">
+                <img src="images/leshay-mcneal.png" alt="Mrs. LeShay McNeal" class="member-photo">
+                <div class="member-info">
+                    <h3>Mrs. LeShay McNeal</h3>
+                    <span class="title">Senior Consultant, Operations & Finance</span>
+                    <p class="bio">Mrs. McNeal is a public administration and operations executive with expertise in finance, strategic problem-solving, and organizational leadership. She currently serves as an Administrator at the Capital Area Transit System in New Orleans, where she applies her expertise in finance and operations to support essential public services.</p>
+                    <div class="member-credentials">
+                        <span>Ph.D. Candidate, Leadership Studies</span>
+                        <span>MPA - Southern University</span>
+                        <span>BS Business Administration</span>
+                        <span>NC A&T State University</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <h2>Get in Touch</h2>
+            <div class="underline"></div>
+            <p>Ready to elevate your institution? Let's start a conversation.</p>
+        </div>
+        <div class="contact-content">
+            <p>We partner with colleges, universities, and educational organizations across the nation. Whether you need support with institutional research, student success initiatives, strategic planning, or accreditation, our team is ready to help.</p>
+            <a href="mailto:info@elevateedstrategy.com" class="btn">Contact Us Today</a>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                    <span>info@elevateedstrategy.com</span>
+                </div>
+                <div class="contact-item">
+                    <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+                    <span>Louisiana | Texas | North Carolina</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#" class="logo">Elevate <span>EdStrategy</span></a>
+        <p>&copy; 2026 Elevate EdStrategy Group, LLC. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        }
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+                // Close mobile menu if open
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+
+        // Navbar background on scroll
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.style.background = 'rgba(26, 54, 93, 0.98)';
+            } else {
+                nav.style.background = 'var(--navy)';
+            }
+        });
+    </script>
+</body>
+</html>
