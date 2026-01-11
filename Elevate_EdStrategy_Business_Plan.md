@@ -95,7 +95,7 @@ Elevate EdStrategy Group differentiates itself through:
 
 **Legal Entity:** Limited Liability Company (LLC)
 
-**State of Formation:** Louisiana
+**State of Formation:** Texas
 
 **Date of Formation:** January 2026
 

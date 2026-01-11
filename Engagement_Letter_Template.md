@@ -338,10 +338,10 @@ Services will be performed in a professional manner consistent with industry sta
 Either party may terminate this engagement with thirty (30) days written notice. Client shall pay for all services performed through the termination date.
 
 ## A.6 Dispute Resolution
-Any disputes shall be resolved through good faith negotiation, followed by mediation, and if necessary, binding arbitration in Louisiana.
+Any disputes shall be resolved through good faith negotiation, followed by mediation, and if necessary, binding arbitration in Texas.
 
 ## A.7 Governing Law
-This agreement shall be governed by the laws of the State of Louisiana.
+This agreement shall be governed by the laws of the State of Texas.
 
 ## A.8 Force Majeure
 Neither party shall be liable for delays due to circumstances beyond their reasonable control.

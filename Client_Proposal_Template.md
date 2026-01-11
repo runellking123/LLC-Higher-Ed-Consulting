@@ -818,7 +818,7 @@ Any disputes arising under this agreement shall be resolved as follows:
 
 ## 10.14 Governing Law
 
-This agreement shall be governed by the laws of the State of Louisiana, without regard to its conflict of laws principles.
+This agreement shall be governed by the laws of the State of Texas, without regard to its conflict of laws principles.
 
 ## 10.15 Entire Agreement
 

@@ -10,7 +10,7 @@
 This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of _________________, 20____ ("Effective Date") by and between:
 
 **ELEVATE EDSTRATEGY GROUP, LLC**
-A Louisiana Limited Liability Company
+A Texas Limited Liability Company
 ("Elevate EdStrategy")
 
 AND
@@ -221,10 +221,10 @@ Each Party agrees to indemnify, defend, and hold harmless the other Party from a
 # ARTICLE 9: GENERAL PROVISIONS
 
 ## 9.1 Governing Law
-This Agreement shall be governed by and construed in accordance with the laws of the State of Louisiana, without regard to its conflict of laws principles.
+This Agreement shall be governed by and construed in accordance with the laws of the State of Texas, without regard to its conflict of laws principles.
 
 ## 9.2 Jurisdiction
-Any legal action or proceeding arising under this Agreement shall be brought exclusively in the state or federal courts located in Louisiana, and the Parties hereby consent to the personal jurisdiction and venue of such courts.
+Any legal action or proceeding arising under this Agreement shall be brought exclusively in the state or federal courts located in Texas, and the Parties hereby consent to the personal jurisdiction and venue of such courts.
 
 ## 9.3 Entire Agreement
 This Agreement constitutes the entire agreement between the Parties with respect to the subject matter hereof and supersedes all prior and contemporaneous agreements, understandings, negotiations, and discussions.

@@ -10,7 +10,7 @@
 This Master Service Agreement ("Agreement") is entered into as of _________________, 20____ ("Effective Date") by and between:
 
 **ELEVATE EDSTRATEGY GROUP, LLC**
-A Louisiana Limited Liability Company
+A Texas Limited Liability Company
 ("Consultant" or "Elevate EdStrategy")
 
 AND
@@ -276,13 +276,13 @@ This Agreement, together with all SOWs and Exhibits, constitutes the entire agre
 This Agreement may be amended only by a written instrument signed by both Parties.
 
 ## 10.9 Governing Law
-This Agreement shall be governed by and construed in accordance with the laws of the State of Louisiana, without regard to its conflict of laws principles.
+This Agreement shall be governed by and construed in accordance with the laws of the State of Texas, without regard to its conflict of laws principles.
 
 ## 10.10 Dispute Resolution
 Any dispute arising under this Agreement shall be resolved as follows:
 1. Good faith negotiation between the Parties;
 2. Mediation by a mutually agreed-upon mediator;
-3. Binding arbitration in accordance with the rules of the American Arbitration Association, conducted in Louisiana.
+3. Binding arbitration in accordance with the rules of the American Arbitration Association, conducted in Texas.
 
 ## 10.11 Counterparts
 This Agreement may be executed in counterparts, each of which shall be deemed an original. Electronic signatures shall be deemed valid and binding.

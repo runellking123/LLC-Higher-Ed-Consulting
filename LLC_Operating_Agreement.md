@@ -1,7 +1,7 @@
 # OPERATING AGREEMENT
 # OF
 # ELEVATE EDSTRATEGY GROUP, LLC
-## A Louisiana Limited Liability Company
+## A Texas Limited Liability Company
 
 ---
 
@@ -45,13 +45,13 @@
 
 # OPERATING AGREEMENT
 
-This Operating Agreement ("Agreement") of **ELEVATE EDSTRATEGY GROUP, LLC**, a Louisiana Limited Liability Company (the "Company"), is entered into and effective as of the _____ day of January, 2026, by and among the undersigned Members.
+This Operating Agreement ("Agreement") of **ELEVATE EDSTRATEGY GROUP, LLC**, a Texas Limited Liability Company (the "Company"), is entered into and effective as of the _____ day of January, 2026, by and among the undersigned Members.
 
 ---
 
 # RECITALS
 
-**WHEREAS**, the Members desire to form a Limited Liability Company under the laws of the State of Louisiana for the purposes set forth herein;
+**WHEREAS**, the Members desire to form a Limited Liability Company under the laws of the State of Texas for the purposes set forth herein;
 
 **WHEREAS**, the Members desire to establish their respective rights, duties, and obligations with respect to the Company;
 
@@ -64,13 +64,13 @@ This Operating Agreement ("Agreement") of **ELEVATE EDSTRATEGY GROUP, LLC**, a L
 # ARTICLE I: FORMATION AND NAME
 
 ## Section 1.1 Formation
-The Company was formed as a Louisiana Limited Liability Company by filing Articles of Organization with the Louisiana Secretary of State in accordance with the Louisiana Limited Liability Company Law (La. R.S. 12:1301 et seq.) (the "Act").
+The Company was formed as a Texas Limited Liability Company by filing a Certificate of Formation with the Texas Secretary of State in accordance with the Texas Business Organizations Code (the "Act").
 
 ## Section 1.2 Name
 The name of the Company shall be **ELEVATE EDSTRATEGY GROUP, LLC**. The Company may conduct business under this name or any trade name or fictitious name approved by the Members.
 
 ## Section 1.3 Governing Law
-This Agreement and the rights and obligations of the Members shall be governed by, and construed and enforced in accordance with, the laws of the State of Louisiana.
+This Agreement and the rights and obligations of the Members shall be governed by, and construed and enforced in accordance with, the laws of the State of Texas.
 
 ## Section 1.4 Intent
 It is the intent of the Members that the Company shall be treated as a partnership for federal and state income tax purposes. No Member shall take any action inconsistent with this intent.
@@ -111,13 +111,13 @@ The principal office of the Company shall be located at:
 The Company may change its principal office at any time upon approval of the Managing Member, with notice to all Members.
 
 ## Section 3.2 Registered Agent
-The registered agent for service of process on the Company in the State of Louisiana shall be:
+The registered agent for service of process on the Company in the State of Texas shall be:
 
 **Name:** ________________________________
 **Address:** ________________________________
 **City, State, ZIP:** ________________________________
 
-The registered agent may be changed at any time by filing an appropriate amendment with the Louisiana Secretary of State.
+The registered agent may be changed at any time by filing an appropriate amendment with the Texas Secretary of State.
 
 ## Section 3.3 Other Offices
 The Company may have such other offices and places of business as the Members may from time to time determine.
@@ -883,7 +883,7 @@ The Company shall be dissolved upon the occurrence of any of the following event
 
 (c) The occurrence of any event that makes it unlawful for the Company's business to continue
 
-(d) The administrative dissolution of the Company by the Louisiana Secretary of State, unless reinstated
+(d) The administrative dissolution of the Company by the Texas Secretary of State, unless reinstated
 
 ## Section 23.2 No Dissolution Upon Departure
 The Company shall not be dissolved upon the death, disability, withdrawal, or expulsion of any Member, provided that at least one Member remains or the remaining Members elect to continue the business.
@@ -905,7 +905,7 @@ The assets of the Company shall be distributed in the following order:
 (b) Second, to Members in respect of their Capital Account balances
 
 ## Section 23.5 Filing of Certificate of Cancellation
-Upon completion of the winding up, the Managing Member or liquidating trustee shall file a Certificate of Cancellation with the Louisiana Secretary of State.
+Upon completion of the winding up, the Managing Member or liquidating trustee shall file a Certificate of Termination with the Texas Secretary of State.
 
 ---
 
@@ -918,7 +918,7 @@ In the event of any dispute arising out of or relating to this Agreement, the Me
 If the dispute is not resolved through negotiation within thirty (30) days, the Members shall submit the dispute to mediation before a mutually agreed upon mediator. The costs of mediation shall be shared equally by the parties to the dispute.
 
 ## Section 24.3 Arbitration
-If the dispute is not resolved through mediation within sixty (60) days, the dispute shall be submitted to binding arbitration in accordance with the Commercial Arbitration Rules of the American Arbitration Association. The arbitration shall be conducted in Baton Rouge, Louisiana, by a single arbitrator.
+If the dispute is not resolved through mediation within sixty (60) days, the dispute shall be submitted to binding arbitration in accordance with the Commercial Arbitration Rules of the American Arbitration Association. The arbitration shall be conducted in Houston, Texas, by a single arbitrator.
 
 ## Section 24.4 Arbitration Award
 The decision of the arbitrator shall be final and binding on the parties. Judgment on the arbitration award may be entered in any court of competent jurisdiction.
@@ -966,10 +966,10 @@ All notices required or permitted under this Agreement shall be in writing and s
 Notices shall be sent to the addresses set forth in Exhibit A or to such other addresses as a Member may designate in writing.
 
 ## Section 26.5 Governing Law
-This Agreement shall be governed by and construed in accordance with the laws of the State of Louisiana, without regard to its conflict of laws principles.
+This Agreement shall be governed by and construed in accordance with the laws of the State of Texas, without regard to its conflict of laws principles.
 
 ## Section 26.6 Jurisdiction
-The Members consent to the exclusive jurisdiction and venue of the state and federal courts located in Louisiana for any action arising out of or relating to this Agreement.
+The Members consent to the exclusive jurisdiction and venue of the state and federal courts located in Texas for any action arising out of or relating to this Agreement.
 
 ## Section 26.7 Binding Effect
 This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective heirs, executors, administrators, personal representatives, successors, and permitted assigns.
