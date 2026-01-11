@@ -67,8 +67,9 @@ netlify deploy --prod --dir=.
 
 ---
 
-## Business Plan
+## Business Documents
 
+### Business Plan
 A comprehensive business plan is available: [Elevate_EdStrategy_Business_Plan.md](Elevate_EdStrategy_Business_Plan.md)
 
 The business plan includes:
@@ -80,6 +81,21 @@ The business plan includes:
 - Financial Projections (5-year)
 - Risk Analysis & Mitigation
 - Implementation Timeline
+
+### LLC Operating Agreement
+The full LLC Operating Agreement is available: [LLC_Operating_Agreement.md](LLC_Operating_Agreement.md)
+
+The operating agreement includes:
+- Formation and Purpose (Article I-II)
+- Members and Capital Contributions (Articles V-VI)
+- Profit/Loss Allocations and Distributions (Articles VII-VIII)
+- Management Structure and Voting Rights (Articles IX-XI)
+- Transfer of Membership Interests (Article XV)
+- Buy-Sell Provisions (Article XVIII)
+- Non-Competition and Non-Solicitation (Article XIX)
+- Confidentiality and Intellectual Property (Articles XX-XXI)
+- Dissolution and Dispute Resolution (Articles XXIII-XXIV)
+- Signature Pages and Exhibits
 
 ---
 
