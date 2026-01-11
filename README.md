@@ -69,52 +69,63 @@ netlify deploy --prod --dir=.
 
 ## Business Documents
 
-### Business Plan
-A comprehensive business plan is available: [Elevate_EdStrategy_Business_Plan.md](Elevate_EdStrategy_Business_Plan.md)
+### Foundational Documents
 
-The business plan includes:
-- Executive Summary
-- Market Analysis
-- Organization & Management
-- Services Portfolio (6 service categories, 20+ service offerings)
-- Marketing & Sales Strategy
-- Financial Projections (5-year)
-- Risk Analysis & Mitigation
-- Implementation Timeline
+| Document | Description |
+|----------|-------------|
+| [Business Plan](Elevate_EdStrategy_Business_Plan.md) | Comprehensive 5-year business plan with market analysis, financial projections, and implementation timeline |
+| [LLC Operating Agreement](LLC_Operating_Agreement.md) | Full operating agreement with member provisions, profit allocations, buy-sell provisions, and governance structure |
 
-### LLC Operating Agreement
-The full LLC Operating Agreement is available: [LLC_Operating_Agreement.md](LLC_Operating_Agreement.md)
+### Client Engagement Documents
 
-The operating agreement includes:
-- Formation and Purpose (Article I-II)
-- Members and Capital Contributions (Articles V-VI)
-- Profit/Loss Allocations and Distributions (Articles VII-VIII)
-- Management Structure and Voting Rights (Articles IX-XI)
-- Transfer of Membership Interests (Article XV)
-- Buy-Sell Provisions (Article XVIII)
-- Non-Competition and Non-Solicitation (Article XIX)
-- Confidentiality and Intellectual Property (Articles XX-XXI)
-- Dissolution and Dispute Resolution (Articles XXIII-XXIV)
-- Signature Pages and Exhibits
+| Document | Description |
+|----------|-------------|
+| [Client Proposal Template](Client_Proposal_Template.md) | Professional proposal template with scope, deliverables, pricing, and terms |
+| [Master Service Agreement](Master_Service_Agreement.md) | Comprehensive MSA governing all client engagements with SOW template |
+| [Non-Disclosure Agreement](Non_Disclosure_Agreement.md) | Mutual NDA with FERPA compliance provisions |
+| [Engagement Letter Template](Engagement_Letter_Template.md) | Formal engagement letter for initiating client projects |
+| [Change Order Template](Change_Order_Template.md) | Template for managing scope, timeline, and budget changes |
 
-### Client Proposal Template
-A professional client proposal template is available: [Client_Proposal_Template.md](Client_Proposal_Template.md)
+### Project Management Documents
 
-The proposal template includes:
-- Cover Letter
-- Executive Summary
-- Understanding of Client Needs
-- Proposed Solution & Methodology
-- Scope of Work (In-Scope/Out-of-Scope)
-- Deliverables with Acceptance Criteria
-- Project Timeline with Milestones
-- Project Team Assignments
-- Investment & Payment Terms
-- Terms and Conditions
-- About the Company
-- Client References
-- Proposal Acceptance & Signature Page
-- Appendices Checklist
+| Document | Description |
+|----------|-------------|
+| [Meeting Minutes Template](Meeting_Minutes_Template.md) | Comprehensive template for documenting project meetings |
+| [Project Closeout Template](Project_Closeout_Template.md) | End-of-project documentation including lessons learned and knowledge transfer |
+
+### Financial & Administrative Documents
+
+| Document | Description |
+|----------|-------------|
+| [Invoice Template](Invoice_Template.md) | Professional invoice template for billing clients |
+| [Expense Report Template](Expense_Report_Template.md) | Internal expense tracking and reimbursement form |
+
+### Quality & Feedback Documents
+
+| Document | Description |
+|----------|-------------|
+| [Client Satisfaction Survey](Client_Satisfaction_Survey.md) | Post-project survey for gathering client feedback |
+
+---
+
+## Document Categories
+
+### For New Client Engagements
+1. Non-Disclosure Agreement (if needed)
+2. Client Proposal Template
+3. Master Service Agreement (or Engagement Letter)
+4. Statement of Work (included in MSA)
+
+### During Project Execution
+1. Meeting Minutes Template
+2. Change Order Template (as needed)
+3. Invoice Template (monthly or milestone-based)
+4. Expense Report Template (for reimbursable expenses)
+
+### At Project Completion
+1. Project Closeout Template
+2. Client Satisfaction Survey
+3. Final Invoice
 
 ---
 
