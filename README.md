@@ -97,6 +97,25 @@ The operating agreement includes:
 - Dissolution and Dispute Resolution (Articles XXIII-XXIV)
 - Signature Pages and Exhibits
 
+### Client Proposal Template
+A professional client proposal template is available: [Client_Proposal_Template.md](Client_Proposal_Template.md)
+
+The proposal template includes:
+- Cover Letter
+- Executive Summary
+- Understanding of Client Needs
+- Proposed Solution & Methodology
+- Scope of Work (In-Scope/Out-of-Scope)
+- Deliverables with Acceptance Criteria
+- Project Timeline with Milestones
+- Project Team Assignments
+- Investment & Payment Terms
+- Terms and Conditions
+- About the Company
+- Client References
+- Proposal Acceptance & Signature Page
+- Appendices Checklist
+
 ---
 
 ## Tech Stack
