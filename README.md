@@ -67,6 +67,22 @@ netlify deploy --prod --dir=.
 
 ---
 
+## Business Plan
+
+A comprehensive business plan is available: [Elevate_EdStrategy_Business_Plan.md](Elevate_EdStrategy_Business_Plan.md)
+
+The business plan includes:
+- Executive Summary
+- Market Analysis
+- Organization & Management
+- Services Portfolio (6 service categories, 20+ service offerings)
+- Marketing & Sales Strategy
+- Financial Projections (5-year)
+- Risk Analysis & Mitigation
+- Implementation Timeline
+
+---
+
 ## Tech Stack
 
 - HTML5
